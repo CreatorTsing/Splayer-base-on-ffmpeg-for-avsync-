@@ -1,0 +1,183 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AV_NOSYNC_THRESHOLD	splay_avsync.c	37;"	d	file:
+AV_SYNC_THRESHOLD	splay_avsync.c	36;"	d	file:
+AudioParams	splay_avsync.c	/^typedef struct AudioParams {$/;"	s	file:
+AudioParams	splay_avsync.c	/^} AudioParams;$/;"	t	typeref:struct:AudioParams	file:
+BPP	splay_drawScreen.c	6;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+DEPTH	splay_drawScreen.c	7;"	d	file:
+DrawScreen	splay_drawScreen.c	/^void DrawScreen(SDL_Surface* screen, int h)$/;"	f
+FF_ALLOC_EVENT	splay_av.c	39;"	d	file:
+FF_ALLOC_EVENT	splay_avsync.c	39;"	d	file:
+FF_QUIT_EVENT	splay_av.c	41;"	d	file:
+FF_QUIT_EVENT	splay_avsync.c	41;"	d	file:
+FF_REFRESH_EVENT	splay_av.c	40;"	d	file:
+FF_REFRESH_EVENT	splay_avsync.c	40;"	d	file:
+HEIGHT	splay_drawScreen.c	5;"	d	file:
+INC	Makefile	/^INC = -I\/usr\/local\/ffmpeg\/include -I\/usr\/local\/SDL\/include\/SDL $/;"	m
+LIB	Makefile	/^LIB = -lswscale -lavformat -lavcodec -lswresample -lm -lz -lSDL -L\/usr\/local\/ffmpeg\/lib -L\/usr\/local\/SDL\/lib$/;"	m
+MAX_AUDIOQ_SIZE	splay_av.c	36;"	d	file:
+MAX_AUDIOQ_SIZE	splay_avsync.c	33;"	d	file:
+MAX_VIDEOQ_SIZE	splay_av.c	37;"	d	file:
+MAX_VIDEOQ_SIZE	splay_avsync.c	34;"	d	file:
+PacketQueue	splay_av.c	/^typedef struct PacketQueue$/;"	s	file:
+PacketQueue	splay_av.c	/^} PacketQueue;$/;"	t	typeref:struct:PacketQueue	file:
+PacketQueue	splay_avsync.c	/^typedef struct PacketQueue {$/;"	s	file:
+PacketQueue	splay_avsync.c	/^} PacketQueue;$/;"	t	typeref:struct:PacketQueue	file:
+SDL_AUDIO_BUFFER_SIZE	splay_av.c	34;"	d	file:
+SDL_AUDIO_BUFFER_SIZE	splay_avsync.c	31;"	d	file:
+SaveFrame	splay_saveFrame.c	/^void SaveFrame(AVFrame *pFrame,int width,int height,int iFrame)$/;"	f
+VIDEO_PICTURE_QUEUE_SIZE	splay_av.c	43;"	d	file:
+VIDEO_PICTURE_QUEUE_SIZE	splay_avsync.c	43;"	d	file:
+VideoPicture	splay_av.c	/^typedef struct VideoPicture$/;"	s	file:
+VideoPicture	splay_av.c	/^} VideoPicture;$/;"	t	typeref:struct:VideoPicture	file:
+VideoPicture	splay_avsync.c	/^typedef struct VideoPicture {$/;"	s	file:
+VideoPicture	splay_avsync.c	/^} VideoPicture;$/;"	t	typeref:struct:VideoPicture	file:
+VideoState	splay_av.c	/^typedef struct VideoState $/;"	s	file:
+VideoState	splay_av.c	/^} VideoState;$/;"	t	typeref:struct:VideoState	file:
+VideoState	splay_avsync.c	/^typedef struct VideoState {$/;"	s	file:
+VideoState	splay_avsync.c	/^} VideoState;$/;"	t	typeref:struct:VideoState	file:
+WIDTH	splay_drawScreen.c	4;"	d	file:
+alloc_picture	splay_av.c	/^void alloc_picture(void *userdata)$/;"	f
+alloc_picture	splay_avsync.c	/^void alloc_picture(void *userdata) {$/;"	f
+allocated	splay_av.c	/^  	int allocated;$/;"	m	struct:VideoPicture	file:
+allocated	splay_avsync.c	/^  int allocated;$/;"	m	struct:VideoPicture	file:
+audioStream	splay_av.c	/^  	int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+audioStream	splay_avsync.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+audio_buf	splay_av.c	/^  	uint8_t         audio_buf[(AVCODEC_MAX_AUDIO_FRAME_SIZE * 3) \/ 2];$/;"	m	struct:VideoState	file:
+audio_buf	splay_avsync.c	/^  uint8_t *         audio_buf;$/;"	m	struct:VideoState	file:
+audio_buf_index	splay_av.c	/^  	unsigned int    audio_buf_index;$/;"	m	struct:VideoState	file:
+audio_buf_index	splay_avsync.c	/^  unsigned int    audio_buf_index;$/;"	m	struct:VideoState	file:
+audio_buf_size	splay_av.c	/^  	unsigned int    audio_buf_size;$/;"	m	struct:VideoState	file:
+audio_buf_size	splay_avsync.c	/^  unsigned int    audio_buf_size;$/;"	m	struct:VideoState	file:
+audio_callback	splay_av.c	/^void audio_callback(void *userdata, Uint8 *stream, int len)$/;"	f
+audio_callback	splay_avsync.c	/^void audio_callback(void *userdata, Uint8 *stream, int len) $/;"	f
+audio_chunk	splay_avsync1.c	/^	static  Uint8  *audio_chunk; $/;"	v	file:
+audio_clock	splay_avsync.c	/^  double          audio_clock;$/;"	m	struct:VideoState	file:
+audio_decode_frame	splay_av.c	/^int audio_decode_frame(VideoState *is, uint8_t *audio_buf, int buf_size) $/;"	f
+audio_decode_frame	splay_avsync.c	/^int audio_decode_frame(VideoState* is,double *pts_ptr)$/;"	f
+audio_hw_buf_size	splay_avsync.c	/^  int             audio_hw_buf_size;  $/;"	m	struct:VideoState	file:
+audio_len	splay_avsync1.c	/^	static  Uint32  audio_len; $/;"	v	file:
+audio_open	splay_avsync.c	/^static int audio_open(void *opaque, int64_t wanted_channel_layout, int wanted_nb_channels, int wanted_sample_rate, struct AudioParams *audio_hw_params)$/;"	f	file:
+audio_pkt	splay_av.c	/^  	AVPacket        audio_pkt;$/;"	m	struct:VideoState	file:
+audio_pkt	splay_avsync.c	/^  AVPacket        audio_pkt;$/;"	m	struct:VideoState	file:
+audio_pkt_data	splay_av.c	/^  	uint8_t         *audio_pkt_data;$/;"	m	struct:VideoState	file:
+audio_pkt_data	splay_avsync.c	/^  uint8_t         *audio_pkt_data;$/;"	m	struct:VideoState	file:
+audio_pkt_size	splay_av.c	/^  	int             audio_pkt_size;$/;"	m	struct:VideoState	file:
+audio_pkt_size	splay_avsync.c	/^  int             audio_pkt_size;$/;"	m	struct:VideoState	file:
+audio_pkt_temp	splay_avsync.c	/^  AVPacket audio_pkt_temp;$/;"	m	struct:VideoState	file:
+audio_pos	splay_avsync1.c	/^	static  Uint8  *audio_pos; $/;"	v	file:
+audio_src	splay_avsync.c	/^  struct AudioParams audio_src;$/;"	m	struct:VideoState	typeref:struct:VideoState::AudioParams	file:
+audio_st	splay_av.c	/^  	AVStream        *audio_st;$/;"	m	struct:VideoState	file:
+audio_st	splay_avsync.c	/^  AVStream        *audio_st;$/;"	m	struct:VideoState	file:
+audio_tgt	splay_avsync.c	/^  struct AudioParams audio_tgt;$/;"	m	struct:VideoState	typeref:struct:VideoState::AudioParams	file:
+audioq	splay_av.c	/^  	PacketQueue     audioq;$/;"	m	struct:VideoState	file:
+audioq	splay_avsync.c	/^  PacketQueue     audioq;$/;"	m	struct:VideoState	file:
+bmp	splay_av.c	/^	SDL_Overlay *bmp;$/;"	m	struct:VideoPicture	file:
+bmp	splay_avsync.c	/^  SDL_Overlay *bmp;$/;"	m	struct:VideoPicture	file:
+channel_layout	splay_avsync.c	/^    int channel_layout;$/;"	m	struct:AudioParams	file:
+channels	splay_avsync.c	/^    int channels;$/;"	m	struct:AudioParams	file:
+cond	splay_av.c	/^  	SDL_cond *cond;$/;"	m	struct:PacketQueue	file:
+cond	splay_avsync.c	/^  SDL_cond *cond;$/;"	m	struct:PacketQueue	file:
+decode_audio	splay_avsync1.c	/^int decode_audio(char* no_use)$/;"	f
+decode_interrupt_cb	splay_av.c	/^int decode_interrupt_cb(void) {$/;"	f
+decode_interrupt_cb	splay_avsync.c	/^int decode_interrupt_cb(void * pParam) $/;"	f
+decode_thread	splay_av.c	/^int decode_thread(void *arg) {$/;"	f
+decode_thread	splay_avsync.c	/^int decode_thread(void *arg) {$/;"	f
+filename	splay_av.c	/^  	char            filename[1024];$/;"	m	struct:VideoState	file:
+filename	splay_avsync.c	/^  char            filename[1024];$/;"	m	struct:VideoState	file:
+fill_audio	splay_avsync1.c	/^	void  fill_audio(void *udata,Uint8 *stream,int len){ $/;"	f
+first_pkt	splay_av.c	/^  	AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+first_pkt	splay_avsync.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+fmt	splay_avsync.c	/^    enum AVSampleFormat fmt;$/;"	m	struct:AudioParams	typeref:enum:AudioParams::AVSampleFormat	file:
+frame	splay_avsync.c	/^  AVFrame *frame;$/;"	m	struct:VideoState	file:
+frame_last_delay	splay_avsync.c	/^  double          frame_last_delay;$/;"	m	struct:VideoState	file:
+frame_last_pts	splay_avsync.c	/^  double          frame_last_pts;$/;"	m	struct:VideoState	file:
+frame_timer	splay_avsync.c	/^  double          frame_timer;$/;"	m	struct:VideoState	file:
+freq	splay_avsync.c	/^    int freq;$/;"	m	struct:AudioParams	file:
+get_audio_clock	splay_avsync.c	/^double get_audio_clock(VideoState *is) {$/;"	f
+global_video_pkt_pts	splay_avsync.c	/^uint64_t global_video_pkt_pts = AV_NOPTS_VALUE;$/;"	v
+global_video_state	splay_av.c	/^VideoState *global_video_state;$/;"	v
+global_video_state	splay_avsync.c	/^VideoState *global_video_state = NULL;$/;"	v
+height	splay_av.c	/^  	int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+height	splay_avsync.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+img_convert_ctx	splay_avsync.c	/^  struct SwsContext *img_convert_ctx;$/;"	m	struct:VideoState	typeref:struct:VideoState::SwsContext	file:
+last_pkt	splay_av.c	/^  	AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+last_pkt	splay_avsync.c	/^  AVPacketList *first_pkt, *last_pkt;$/;"	m	struct:PacketQueue	file:
+main	splay_av.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	splay_av.c	28;"	d	file:
+main	splay_avsync.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	splay_avsync.c	25;"	d	file:
+main	splay_drawScreen.c	/^int main(int argc, char* argv[])$/;"	f
+main	splay_saveFrame.c	/^int main(int argc,char *argv[])$/;"	f
+mutex	splay_av.c	/^  	SDL_mutex *mutex;$/;"	m	struct:PacketQueue	file:
+mutex	splay_avsync.c	/^  SDL_mutex *mutex;$/;"	m	struct:PacketQueue	file:
+nb_packets	splay_av.c	/^  	int nb_packets;$/;"	m	struct:PacketQueue	file:
+nb_packets	splay_avsync.c	/^  int nb_packets;$/;"	m	struct:PacketQueue	file:
+our_get_buffer	splay_avsync.c	/^int our_get_buffer(struct AVCodecContext *c, AVFrame *pic) {$/;"	f
+our_release_buffer	splay_avsync.c	/^void our_release_buffer(struct AVCodecContext *c, AVFrame *pic) {$/;"	f
+pFormatCtx	splay_av.c	/^  	AVFormatContext *pFormatCtx;$/;"	m	struct:VideoState	file:
+pFormatCtx	splay_avsync.c	/^  AVFormatContext *pFormatCtx;$/;"	m	struct:VideoState	file:
+packet_queue_get	splay_av.c	/^static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)$/;"	f	file:
+packet_queue_get	splay_avsync.c	/^static int packet_queue_get(PacketQueue *q, AVPacket *pkt, int block)$/;"	f	file:
+packet_queue_init	splay_av.c	/^void packet_queue_init(PacketQueue *q)$/;"	f
+packet_queue_init	splay_avsync.c	/^void packet_queue_init(PacketQueue *q) {$/;"	f
+packet_queue_put	splay_av.c	/^int packet_queue_put(PacketQueue *q, AVPacket *pkt)$/;"	f
+packet_queue_put	splay_avsync.c	/^int packet_queue_put(PacketQueue *q, AVPacket *pkt) {$/;"	f
+parse_tid	splay_av.c	/^  	SDL_Thread      *parse_tid;$/;"	m	struct:VideoState	file:
+parse_tid	splay_avsync.c	/^  SDL_Thread      *parse_tid;$/;"	m	struct:VideoState	file:
+pictq	splay_av.c	/^  	VideoPicture    pictq[VIDEO_PICTURE_QUEUE_SIZE];$/;"	m	struct:VideoState	file:
+pictq	splay_avsync.c	/^  VideoPicture    pictq[VIDEO_PICTURE_QUEUE_SIZE];$/;"	m	struct:VideoState	file:
+pictq_cond	splay_av.c	/^  	SDL_cond        *pictq_cond;$/;"	m	struct:VideoState	file:
+pictq_cond	splay_avsync.c	/^  SDL_cond        *pictq_cond;$/;"	m	struct:VideoState	file:
+pictq_mutex	splay_av.c	/^  	SDL_mutex       *pictq_mutex;$/;"	m	struct:VideoState	file:
+pictq_mutex	splay_avsync.c	/^  SDL_mutex       *pictq_mutex;$/;"	m	struct:VideoState	file:
+pictq_rindex	splay_av.c	/^  	int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_rindex	splay_avsync.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_size	splay_av.c	/^  	int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_size	splay_avsync.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_windex	splay_av.c	/^  	int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pictq_windex	splay_avsync.c	/^  int             pictq_size, pictq_rindex, pictq_windex;$/;"	m	struct:VideoState	file:
+pts	splay_avsync.c	/^  double pts;$/;"	m	struct:VideoPicture	file:
+queue_picture	splay_av.c	/^int queue_picture(VideoState *is, AVFrame *pFrame)$/;"	f
+queue_picture	splay_avsync.c	/^int queue_picture(VideoState *is, AVFrame *pFrame, double pts) {$/;"	f
+quit	splay_av.c	/^  	int             quit;$/;"	m	struct:VideoState	file:
+quit	splay_avsync.c	/^  int             quit;$/;"	m	struct:VideoState	file:
+schedule_refresh	splay_av.c	/^static void schedule_refresh(VideoState *is, int delay)$/;"	f	file:
+schedule_refresh	splay_avsync.c	/^static void schedule_refresh(VideoState *is, int delay) {$/;"	f	file:
+screen	splay_av.c	/^SDL_Surface     *screen;$/;"	v
+screen	splay_avsync.c	/^SDL_Surface     *screen;$/;"	v
+sdl_refresh_timer_cb	splay_av.c	/^static Uint32 sdl_refresh_timer_cb(Uint32 interval, void *opaque) $/;"	f	file:
+sdl_refresh_timer_cb	splay_avsync.c	/^static Uint32 sdl_refresh_timer_cb(Uint32 interval, void *opaque) {$/;"	f	file:
+setpixel	splay_drawScreen.c	/^void setpixel(SDL_Surface *screen, int x, int y, Uint8 r, Uint8 g, Uint8 b)$/;"	f
+silence_buf	splay_avsync.c	/^  uint8_t silence_buf[SDL_AUDIO_BUFFER_SIZE];$/;"	m	struct:VideoState	file:
+size	splay_av.c	/^  	int size;$/;"	m	struct:PacketQueue	file:
+size	splay_avsync.c	/^  int size;$/;"	m	struct:PacketQueue	file:
+stream_component_open	splay_av.c	/^int stream_component_open(VideoState *is, int stream_index) {$/;"	f
+stream_component_open	splay_avsync.c	/^int stream_component_open(VideoState *is, int stream_index) $/;"	f
+swr_ctx	splay_avsync.c	/^  struct SwrContext *swr_ctx;$/;"	m	struct:VideoState	typeref:struct:VideoState::SwrContext	file:
+synchronize_video	splay_avsync.c	/^double synchronize_video(VideoState *is, AVFrame *src_frame, double pts) {$/;"	f
+videoStream	splay_av.c	/^  	int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+videoStream	splay_avsync.c	/^  int             videoStream, audioStream;$/;"	m	struct:VideoState	file:
+video_clock	splay_avsync.c	/^  double          video_clock; \/\/\/<pts of last decoded frame \/ predicted pts of next decoded frame$/;"	m	struct:VideoState	file:
+video_display	splay_av.c	/^void video_display(VideoState *is)$/;"	f
+video_display	splay_avsync.c	/^void video_display(VideoState *is) {$/;"	f
+video_refresh_timer	splay_av.c	/^void video_refresh_timer(void *userdata) $/;"	f
+video_refresh_timer	splay_avsync.c	/^void video_refresh_timer(void *userdata) {$/;"	f
+video_st	splay_av.c	/^  	AVStream        *video_st;$/;"	m	struct:VideoState	file:
+video_st	splay_avsync.c	/^  AVStream        *video_st;$/;"	m	struct:VideoState	file:
+video_thread	splay_av.c	/^int video_thread(void *arg) {$/;"	f
+video_thread	splay_avsync.c	/^int video_thread(void *arg) {$/;"	f
+video_tid	splay_av.c	/^  	SDL_Thread      *video_tid;$/;"	m	struct:VideoState	file:
+video_tid	splay_avsync.c	/^  SDL_Thread      *video_tid;$/;"	m	struct:VideoState	file:
+videoq	splay_av.c	/^  	PacketQueue     videoq;$/;"	m	struct:VideoState	file:
+videoq	splay_avsync.c	/^  PacketQueue     videoq;$/;"	m	struct:VideoState	file:
+width	splay_av.c	/^  	int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
+width	splay_avsync.c	/^  int width, height; \/* source height & width *\/$/;"	m	struct:VideoPicture	file:
