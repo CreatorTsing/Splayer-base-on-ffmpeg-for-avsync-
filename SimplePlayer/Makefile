@@ -8,3 +8,5 @@ all:
 	$(CC) $(CFLAGS) -o splay_avsync splay_avsync.c $(LIB) $(INC)
 clean:
 	rm splay_avsync
+
+
